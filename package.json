@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "previews": "python3 scripts/generate-pet-previews.py",
-    "validate": "node scripts/validate-pets.mjs --require-generated-assets",
-    "validate:pr": "node scripts/validate-pets.mjs"
+    "validate": "node scripts/validate-pet.mjs"
   },
   "engines": {
     "node": ">=20"

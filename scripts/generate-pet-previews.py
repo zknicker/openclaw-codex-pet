@@ -101,10 +101,10 @@ def make_gif(atlas: Image.Image, state: str, row: int, durations: list[int], out
             raise ValueError(f"{output} must be {GIF_SIZE[0]}x{GIF_SIZE[1]}, got {generated.size[0]}x{generated.size[1]}")
 
 
-def generate_for_pet(pet_dir: Path) -> None:
-    spritesheet = pet_dir / "spritesheet.webp"
+def generate_previews(repo_root: Path) -> None:
+    spritesheet = repo_root / "spritesheet.webp"
     if not spritesheet.exists():
-        return
+        raise FileNotFoundError(spritesheet)
 
     with Image.open(spritesheet) as opened:
         atlas = opened.convert("RGBA")
@@ -113,21 +113,17 @@ def generate_for_pet(pet_dir: Path) -> None:
     if atlas.size != expected_size:
         raise ValueError(f"{spritesheet} must be {expected_size[0]}x{expected_size[1]}, got {atlas.size[0]}x{atlas.size[1]}")
 
-    repo_root = Path(__file__).resolve().parents[1]
-    preview_dir = repo_root / "assets" / "previews" / pet_dir.name
+    preview_dir = repo_root / "assets" / "previews"
     make_contact_sheet(atlas, preview_dir / "contact-sheet.png")
     for state, row, durations in STATES:
         make_gif(atlas, state, row, durations, preview_dir / "gifs" / f"{state}.gif")
 
-    print(f"generated previews for {pet_dir.name}")
+    print("generated previews for Openclaw")
 
 
 def main() -> None:
     repo_root = Path(__file__).resolve().parents[1]
-    pets_dir = repo_root / "pets"
-    for pet_dir in sorted(pets_dir.iterdir()):
-        if pet_dir.is_dir() and not pet_dir.name.startswith("."):
-            generate_for_pet(pet_dir)
+    generate_previews(repo_root)
 
 
 if __name__ == "__main__":
