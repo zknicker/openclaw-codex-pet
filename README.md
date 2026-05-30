@@ -4,7 +4,7 @@
 
 ![pet: Openclaw](https://img.shields.io/badge/pet-Openclaw-2ea44f)
 ![format: Codex pet](https://img.shields.io/badge/format-Codex%20pet-0969da)
-![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316)
+![license: MIT OR Apache--2.0](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-f97316)
 
 Openclaw is a mischievous red open-claw lobster companion for Codex.
 
@@ -61,5 +61,12 @@ npm run validate
 
 ## License
 
-- Code and scripts: [MIT](./LICENSE)
-- Pet assets and generated previews: [CC BY-NC 4.0](./ASSETS-LICENSE.md)
+Openclaw Codex Pet is licensed under `MIT OR Apache-2.0`.
+
+That applies to the pet assets, generated previews, metadata, scripts, and docs.
+Use whichever license best fits your downstream project.
+
+Full texts:
+
+- [MIT](./LICENSE-MIT)
+- [Apache-2.0](./LICENSE-APACHE)
