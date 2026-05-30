@@ -2,7 +2,7 @@
   "name": "openclaw-codex-pet",
   "version": "0.1.0",
   "description": "An unofficial OpenClaw lobster pet for Codex App.",
-  "license": "(MIT OR Apache-2.0)",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "previews": "python3 scripts/generate-pet-previews.py",

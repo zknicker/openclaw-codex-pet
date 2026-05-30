@@ -4,7 +4,7 @@
 
 ![pet: Openclaw](https://img.shields.io/badge/pet-Openclaw-2ea44f)
 ![format: Codex pet](https://img.shields.io/badge/format-Codex%20pet-0969da)
-![license: MIT OR Apache--2.0](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-f97316)
+![license: MIT](https://img.shields.io/badge/license-MIT-f97316)
 
 An (unofficial) OpenClaw lobster pet for your Codex App. This is a v1, but he's Codex-generated, and hand animated. I'm going to hopefully take another pass at some of the animations that didn't turn out as well at some point.
 
@@ -61,12 +61,8 @@ npm run validate
 
 ## License
 
-Openclaw Codex Pet is licensed under `MIT OR Apache-2.0`.
+Openclaw Codex Pet is licensed under the MIT License.
 
 That applies to the pet assets, generated previews, metadata, scripts, and docs.
-Use whichever license best fits your downstream project.
 
-Full texts:
-
-- [MIT](./LICENSE-MIT)
-- [Apache-2.0](./LICENSE-APACHE)
+See [LICENSE](./LICENSE) for the full license text.
