@@ -1,0 +1,15 @@
+{
+  "name": "openclaw-codex-pet",
+  "version": "0.1.0",
+  "description": "Openclaw, a custom Codex pet.",
+  "license": "SEE LICENSE IN LICENSE AND ASSETS-LICENSE.md",
+  "type": "module",
+  "scripts": {
+    "previews": "python3 scripts/generate-pet-previews.py",
+    "validate": "node scripts/validate-pets.mjs --require-generated-assets",
+    "validate:pr": "node scripts/validate-pets.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
