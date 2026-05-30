@@ -6,7 +6,7 @@
 ![format: Codex pet](https://img.shields.io/badge/format-Codex%20pet-0969da)
 ![license: MIT OR Apache--2.0](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-f97316)
 
-Openclaw is a mischievous red open-claw lobster companion for Codex.
+An (unofficial) OpenClaw lobster pet for your Codex App. This is a v1, but he's Codex-generated, and hand animated. I'm going to hopefully take another pass at some of the animations that didn't turn out as well at some point.
 
 </div>
 

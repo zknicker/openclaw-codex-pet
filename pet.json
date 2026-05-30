@@ -1,6 +1,6 @@
 {
   "id": "openclaw",
   "displayName": "Openclaw",
-  "description": "A simplified mischievous red open-claw lobster companion in Codex pixel pet style with subtle neutral claw asymmetry.",
+  "description": "An (unofficial) OpenClaw lobster pet for your Codex App. This is a v1, but he's Codex-generated, and hand animated. I'm going to hopefully take another pass at some of the animations that didn't turn out as well at some point.",
   "spritesheetPath": "spritesheet.webp"
 }

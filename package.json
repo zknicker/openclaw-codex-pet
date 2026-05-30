@@ -1,7 +1,7 @@
 {
   "name": "openclaw-codex-pet",
   "version": "0.1.0",
-  "description": "Openclaw, a custom Codex pet.",
+  "description": "An unofficial OpenClaw lobster pet for Codex App.",
   "license": "(MIT OR Apache-2.0)",
   "type": "module",
   "scripts": {
